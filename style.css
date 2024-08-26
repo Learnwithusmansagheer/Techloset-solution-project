@@ -4507,20 +4507,19 @@ nav {
 
     .custom {
 
-        width: 250px;
+        width: 300px;
         height: 200px;
     }
 
     .laptop {
         top: 30px;
 
-        width: 200px;
+        width: 230px;
 
     }
 
     .mobile {
         width: 150px;
-
         top: 70px;
         left: 130px;
     }
@@ -4531,19 +4530,22 @@ nav {
     }
 
     #Resumas p {
-        flex-wrap: wrap;
-        padding: 50px 20px;
-        top: 150px;
-        width: auto;
+        top: 160px;
+        width: 350px;
     }
 
     #Resumas h6 {
+        text-align: center;
+        flex-wrap: wrap;
         width: auto;
-        top: 150px;
+        top: 160px;
     }
 
     #lk {
-        width: 250px;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 200px;
     }
 
     #mobilepiza {
@@ -4559,6 +4561,7 @@ nav {
     }
 
     #GoGrocer h6 {
+        text-align: center;
         flex-wrap: wrap;
         width: auto;
         top: 160px;
@@ -4567,9 +4570,114 @@ nav {
     #GoGrocer p {
 
         top: 160px;
-        width: auto;
-        flex-wrap: wrap;
+        width: 350px;
+    }
 
+    #ik1 {
+        width: 300px;
+    }
+
+    #laptop3 {
+        top: 30px;
+        width: 200px;
+
+    }
+
+
+
+    #GoGrocer1 h6 {
+        top: 90px;
+    }
+
+    #GoGrocer1 p {
+        flex-wrap: wrap;
+        top: 90px;
+
+    }
+}
+
+@media screen and (max-width: 410px) {
+
+
+    .container0 {
+
+        display: flex;
+        width: 100px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: auto;
+        gap: 200px;
+    }
+
+    .custom {
+
+        width: 250px;
+        height: 200px;
+    }
+
+    .laptop {
+        top: 30px;
+
+        width: 200px;
+
+    }
+
+    .mobile {
+        width: 150px;
+        top: 70px;
+        left: 130px;
+    }
+
+    .heading {
+        text-align: center;
+        padding: 0px;
+
+    }
+
+    #Resumas p {
+        top: 160px;
+        width: 300px;
+    }
+
+    #Resumas h6 {
+        text-align: center;
+        flex-wrap: wrap;
+        width: auto;
+        top: 160px;
+    }
+
+    #lk {
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+        height: 200px;
+    }
+
+    #mobilepiza {
+        width: 100px;
+        left: 150px;
+        top: 100px;
+    }
+
+    #laptop1 {
+        width: 270px;
+        top: 50px;
+
+    }
+
+    #GoGrocer h6 {
+        text-align: center;
+        flex-wrap: wrap;
+        width: auto;
+        top: 160px;
+    }
+
+    #GoGrocer p {
+
+        top: 160px;
+        width: 300px;
     }
 
     #ik1 {
@@ -4585,36 +4693,41 @@ nav {
 
 
     #GoGrocer1 h6 {
+        padding: 0px 50px;
         top: 90px;
     }
 
     #GoGrocer1 p {
+
         flex-wrap: wrap;
         top: 90px;
-
+        width: 300px;
     }
-
-
-
-
 }
 
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 400px) {
+
+
     .container0 {
-       
-      
+        margin-left: -20px;
+        padding: auto;
+        width: 100%;
+        flex-wrap: wrap;
+
+        gap: 200px;
     }
 
     .custom {
-    
-        position: absolute;
-       
-       
+
+        width: 250px;
+        height: 200px;
     }
 
     .laptop {
         top: 30px;
+
         width: 200px;
+
     }
 
     .mobile {
@@ -4624,29 +4737,29 @@ nav {
     }
 
     .heading {
-  margin-left: 5px;
+        text-align: center;
+   
+
     }
 
     #Resumas p {
-        flex-wrap: wrap;
-        padding: 50px 20px;
-        top: 150px;
-        width: auto;
+        left: 50px;
+        top: 160px;
+        width: 300px;
     }
 
     #Resumas h6 {
+   
+        flex-wrap: wrap;
         width: auto;
-        top: 150px;
+        top: 160px;
     }
 
     #lk {
-       margin-left: 50px;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-      margin-top: 700px;
-        position: absolute;
+        justify-content: center;
+        align-items: center;
         width: 250px;
+        height: 200px;
     }
 
     #mobilepiza {
@@ -4658,36 +4771,44 @@ nav {
     #laptop1 {
         width: 270px;
         top: 50px;
+
     }
 
     #GoGrocer h6 {
+        text-align: center;
         flex-wrap: wrap;
         width: auto;
         top: 160px;
     }
 
     #GoGrocer p {
+
         top: 160px;
-        width: auto;
-        flex-wrap: wrap;
+        width: 300px;
     }
 
-    #ik1 {margin-top: 1400px;
+    #ik1 {
         width: 250px;
     }
 
     #laptop3 {
         top: 30px;
         width: 200px;
+
     }
 
+
+
     #GoGrocer1 h6 {
-        top: 90px;
+font-size: 25px;
+        top: 170px;
     }
 
     #GoGrocer1 p {
+
         flex-wrap: wrap;
         top: 90px;
+        width: 300px;
     }
 }
 
